@@ -10,3 +10,7 @@ def test_prime_number_ValueError():
 def test_prime_number_returns_empty_list():
     """ tests for an empty list when input is 1 """
     assert prime.generate_prime_factors(1) == []
+
+def test_prime_number_returns_two_in_list():
+    """ tests for a list with 2 when input is 2 """
+    assert prime.generate_prime_factors(2) == [2]
