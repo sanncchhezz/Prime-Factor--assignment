@@ -10,5 +10,7 @@ def generate_prime_factors(num):
         return []
     if num == 2:
         return [2]
+    if num == 3:
+        return [3]
   
     

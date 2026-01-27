@@ -14,3 +14,7 @@ def test_prime_number_returns_empty_list():
 def test_prime_number_returns_two_in_list():
     """ tests for a list with 2 when input is 2 """
     assert prime.generate_prime_factors(2) == [2]
+
+def test_prime_number_returns_three_in_list():
+    """ tests for a list with 3 when input is 3 """
+    assert prime.generate_prime_factors(3) == [3]
