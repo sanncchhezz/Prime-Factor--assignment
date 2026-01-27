@@ -27,3 +27,7 @@ def test_prime_number_returns_multiple_products():
 def test_prime_number_returns_multiple_products_for_six():
     """ tests for a list with multiple prime factors """
     assert prime.generate_prime_factors(6) == [2, 3]
+
+def test_prime_number_returns_multiple_products_for_eight():
+    """ tests for a list with multiple prime factors """
+    assert prime.generate_prime_factors(8) == [2, 2, 2]
