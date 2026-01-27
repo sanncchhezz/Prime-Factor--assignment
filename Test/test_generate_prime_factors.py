@@ -6,3 +6,7 @@ def test_prime_number_ValueError():
     with pytest.raises(ValueError):
         assert prime.generate_prime_factors("hello")
 
+
+def test_prime_number_returns_empty_list():
+    """ tests for an empty list when input is 1 """
+    assert prime.generate_prime_factors(1) == []
